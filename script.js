@@ -56,10 +56,10 @@ function countriesCard(){
             h2.innerHTML = country.name.common
 
             const capital = document.createElement('p')
-            capital.innerHTML = country.capital;
+            capital.innerHTML = `capital:${country.capital}`;
 
             const population = document.createElement('p')
-            population.innerHTML = country.population;
+            population.innerHTML = `population:${country.population}`;
 
             div1.appendChild(img)
             div1.appendChild(h2)
